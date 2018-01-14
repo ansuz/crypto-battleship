@@ -67,7 +67,7 @@ var Grid = module.exports = function (w, h) {
     g.byNumber = function (n, m, f, h) {
         if (h) { n = n % h; }
         var x = n % m;
-        var y = Math.floor(n / m)
+        var y = Math.floor(n / m);
         try {
         return f(g.get(x, y), x, y);
         } catch (e) {

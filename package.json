@@ -15,6 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "ansuz": "0.0.18",
-    "cryptomancy": "^1.0.0"
+    "cryptomancy": "^1.0.1"
   }
 }
