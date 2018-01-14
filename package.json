@@ -1,0 +1,20 @@
+{
+  "name": "cryptomancy-battleship",
+  "version": "1.0.0",
+  "description": "p2p battleship built with cryptomancy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint --config .jshintrc --exclude-path .jshintignore ."
+  },
+  "keywords": [
+    "cryptomancy",
+    "battleship"
+  ],
+  "author": "ansuz",
+  "license": "ISC",
+  "dependencies": {
+    "ansuz": "0.0.18",
+    "cryptomancy": "^1.0.0"
+  }
+}
